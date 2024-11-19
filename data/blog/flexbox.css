@@ -1,0 +1,59 @@
+
+.div1{
+background-color: blueviolet;
+}
+
+.div2{
+background-color: orangered;
+}
+.div3{
+background-color: green;
+}
+.div4{
+background-color:sandybrown;
+}
+.div5{
+background-color: palevioletred;
+}
+.div6{
+background-color: rgb(113, 189, 189);
+height: 50px;
+}
+.div7{
+background-color: yellow;
+}
+.div8{
+background-color: rosybrown;
+
+}
+
+.container{
+    background-color: rgb(239, 232, 232);
+    font-family: sans-serif;
+    margin: 40px;
+    /*FLEX BOX*/
+    display: flex;
+    
+      
+    
+    align-items:center;
+    }
+
+
+
+    .container2{
+        background-color: rgb(239, 232, 232);
+        font-family: sans-serif;
+       
+        /*FLEX grid*/
+        display: grid;
+        grid-template-rows: 300px  200px; /*chiều cao các hàng*/
+  grid-template-columns: 200px 200px 100px ; /*chiểu rộng các hàng*/
+  margin: 40px auto;
+   gap: 30px; /*khoảng cách giữa các phần tử con*/
+  max-width: 1200px;
+         column-gap: 10px; /*khoảng cách giữa các cột*/
+        row-gap: 6px; /*cách giữa các hàng trong bố cục.*/
+     
+        }
+        
