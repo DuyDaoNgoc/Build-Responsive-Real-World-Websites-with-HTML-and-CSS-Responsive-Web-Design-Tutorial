@@ -1,0 +1,56 @@
+
+
+/* Container tổng quát */
+.profile-container {
+    width: 1200px;
+    height:300px;
+    max-width: 900px;
+    margin: -111px auto;    
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+/* Ảnh bìa */
+.hinhphu {
+    width: 100%;
+    height: 250px;
+    background: url('') no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Hình đại diện - Cố định vị trí */
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: relative;
+    top: -15    px; 
+    left: calc(50% - 341px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Thông tin người dùng */
+.profile-info {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.profile-info h1 {
+    margin: -202px auto;
+    font-size: 24px;
+    color: #333;
+    margin-left: -130px;
+    font-size: 40px;
+    padding: 65px;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
